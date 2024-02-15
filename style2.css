@@ -1,0 +1,30 @@
+h1{
+    color: red;
+    text-decoration:black underline;
+}
+#photo{
+    position: absolute;
+    left: 80%;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-image: url("profile\ picture2.jpg");
+    background-size: cover;
+    border: 2px solid black;
+}
+body{
+    background-image: url("resume.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.zoom{
+    width: 100px;
+    transition:all ease-in;
+}
+.zoom:hover{
+    color: red;
+    font-size: 20px;
+}
+@media(max-width:600px)
+{#photo{left: 45%;}
+} 
