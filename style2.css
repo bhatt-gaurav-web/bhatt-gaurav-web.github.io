@@ -59,7 +59,7 @@ td{
  box-shadow: 0 4px 8px 0 rgba(0,0,0.2);
 }
 .facebook{
-    background-color: rgb(32, 32, 218);
+    background-color: #316FF6;
     border: 2px solid white;
 }
 .instagram{
@@ -71,7 +71,7 @@ td{
     border: 2px solid white;
 }
 .linkedin{
-    background-color: rgb(32, 32, 218);
+    background-color: #0077b5;
     border: 2px solid white;
 }
 
