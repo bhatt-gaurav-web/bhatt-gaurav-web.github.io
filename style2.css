@@ -2,7 +2,7 @@ h1{
     color: red;
     text-decoration:black underline;
 }
-#photo{
+.photo{
     position: absolute;
     left: 80%;
     border-radius: 50%;
@@ -13,7 +13,7 @@ h1{
     border: 2px solid black;
 }
 body{
-    background-image: url("resume.jpg");
+    /* background-image: url("resume.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -84,4 +84,35 @@ td{
     transform: rotate(360deg);
     background-color: white;
     color: black;
+}
+.mode{
+    position: absolute;
+    left: 90%;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    border: 2px black solid;
+    padding: 4px 9px 2px 8px;
+}
+.bottom-icon{
+    display: flex;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.underline{
+    text-decoration: white underline;
+}
+.photos{
+    border: 2px solid white;
+}
+.mode-icon{
+    border: 2px white solid;
+}
+.tab-border{
+    background-color: white;
 }
