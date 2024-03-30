@@ -24,6 +24,7 @@ body{
 .zoom:hover{
     color: red;
     font-size: 20px;
+    cursor: pointer;
 }
 @media(max-width:600px)
 {.photo{left: 49%;}
@@ -38,11 +39,11 @@ td{
     background-color: lightgray;
     text-align: center;
 }
-/* img{
+img{
     mix-blend-mode: color-burn;
     border-radius: 50%;
-    transition: all 0.5 ease;
-} */
+    transition: 1s;
+}
 .social{
     display: flex;
 }
@@ -116,3 +117,16 @@ td{
 .tab-border{
     background-color: white;
 }
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+    @media(max-width:800px){
+        .contact{flex-wrap: wrap;}
+    }
+    .size i{
+        font-size: 2rem;
+    }
